@@ -190,23 +190,23 @@
   }
   </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="Home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#Home">Logo</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" id="Navbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#committees">COMMITTEES</a></li>
+        <li><a href="#apply">APPLY</a></li>
         <li><a href="#pricing">PRICING</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
@@ -256,9 +256,9 @@
   </div>
 </div>
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
+<!-- Container (COMMITTEES Section) -->
+<div id="committees" class="container-fluid text-center">
+  <h2>COMMITTEES</h2>
   <h4>What we offer</h4>
   <br>
   <div class="row slideanim">
@@ -298,9 +298,9 @@
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
+<!-- Container (APPLY Section) -->
+<div id="apply" class="container-fluid text-center bg-grey">
+  <h2>APPLY</h2><br>
   <h4>What we have created</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
@@ -474,7 +474,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
 <footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
+  <a href="#Home" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
@@ -483,7 +483,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, footer a[href='#Home']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
