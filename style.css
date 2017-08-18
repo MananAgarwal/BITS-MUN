@@ -6,7 +6,7 @@ body {
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: #013148;
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -135,6 +135,7 @@ body {
 
   #contact-details{
     margin-left: 35px;
+    height: 400px;
   }
   #contact-details h4{
     font-size: 18px;
@@ -169,6 +170,42 @@ body {
       color: #013148;
   }
 
+.social-buttons {
+  bottom: 5px;
+  position: absolute;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.social-buttons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #2c3e50;
+    display: inline-block;
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+}
+
+.social-btn:hover, .social-btn:focus {
+    background: #013148;
+    color: #fff;
+}
+
+.social-btn i {
+    font-size: 1.2em;
+    line-height: inherit;
+}
   /* slide animation on scroll */
   .slideanim {visibility:hidden;}
   .slide {

@@ -1,2 +1,2 @@
 # BITS-MUN
-BITS Pilani MUN website
+BITS Model United Nation Pilani website
