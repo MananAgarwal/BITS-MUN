@@ -83,6 +83,10 @@ body {
       margin-bottom: 10px;
   }
 
+  .apply{
+    position: relative;
+  }
+
   .apply a{
     font-weight: 400;
     color: #013148;
@@ -245,6 +249,18 @@ ul.social-buttons li {
     .btn-lg {
         width: 100%;
         margin-bottom: 35px;
+    }
+    #contact-details{
+      margin-left: 0px;
+      height: auto;
+    }
+    .social-buttons {
+      position: relative;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .apply{
+      margin-top: 15px;
     }
   }
   @media screen and (max-width: 480px) {
