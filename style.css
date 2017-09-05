@@ -58,12 +58,23 @@ body {
       margin-bottom: 0px;
       font-family: Montserrat, sans-serif;
   }
+  .landing{
+      padding-top: 130px;
+      padding-bottom: 70px;
+      background: url('BG2.jpg') no-repeat center center;
+      background-size: 100%;
+  }
   .container-fluid {
       padding: 50px 50px;
   }
   .bg-grey {
       background-color: #f6f6f6;
   }
+
+  #welcome-letter h4{
+    text-align: justify;   
+  }
+
   .logo-small {
       color: #013148;
       font-size: 50px;
