@@ -105,9 +105,13 @@ body {
     color: #515151;
   }
 
+  .why-join-us{
+    padding: 0px;
+  }
+
   .designation{
     margin-top: -10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .carousel-control.right, .carousel-control.left {
@@ -170,22 +174,60 @@ body {
       color: #013148;
   }
 
-.social-buttons {
-  bottom: 5px;
-  position: absolute;
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
+  .social-buttons {
+    bottom: 5px;
+    position: absolute;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
 
-ul.social-buttons li {
+  ul.social-buttons li {
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  .social-btn {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      background: #2c3e50;
+      display: inline-block;
+      color: #fff;
+      line-height: 46px;
+      text-align: center;
+  }
+
+  .social-btn:hover, .social-btn:focus {
+      background: #013148;
+      color: #fff;
+  }
+
+  .social-btn i {
+      font-size: 1.2em;
+      line-height: inherit;
+  }
+
+
+  .personal-buttons{
+    position: relative;
+  }
+
+  ul.personal-buttons{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .personal-buttons li{
     display: inline-block;
-    margin-right: 10px;
-}
+  }
 
-.social-btn {
-    width: 46px;
-    height: 46px;
+  .personal-btn{
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -193,19 +235,23 @@ ul.social-buttons li {
     background: #2c3e50;
     display: inline-block;
     color: #fff;
-    line-height: 46px;
+    line-height: 35px;
+    margin: 4px;
+    margin-top: 0px;
     text-align: center;
-}
+  }
 
-.social-btn:hover, .social-btn:focus {
-    background: #013148;
-    color: #fff;
-}
+  .personal-btn:hover, .personal-btn:focus {
+      background: #013148;
+      color: #fff;
+  }
 
-.social-btn i {
-    font-size: 1.2em;
-    line-height: inherit;
-}
+  .personal-btn i {
+      font-size: 1em;
+      line-height: inherit;
+  }
+
+
   /* slide animation on scroll */
   .slideanim {visibility:hidden;}
   .slide {
