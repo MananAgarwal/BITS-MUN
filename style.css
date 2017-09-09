@@ -61,7 +61,7 @@ body {
   .landing{
       padding-top: 130px;
       padding-bottom: 70px;
-      background: url('BG2.jpg') no-repeat center center;
+      background: url('BG2-min.jpg') no-repeat center center;
       background-size: 101%;
   }
   .container-fluid {
@@ -99,6 +99,10 @@ body {
     border: 1px solid #013148;
     background:#013148;
     color:#fff;
+  }
+
+  .why-join-us p{
+    color: #515151;
   }
 
   .designation{
