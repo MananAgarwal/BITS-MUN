@@ -58,29 +58,21 @@ body {
       margin-bottom: 0px;
       font-family: Montserrat, sans-serif;
   }
+  .landing{
+      padding-top: 130px;
+      padding-bottom: 70px;
+      background: url('BG2.jpg') no-repeat center center;
+      background-size: 101%;
+  }
   .container-fluid {
       padding: 50px 50px;
   }
   .bg-grey {
       background-color: #f6f6f6;
   }
-  .logo-small {
-      color: #013148;
-      font-size: 50px;
-  }
-  .logo {
-      color: #013148;
-      font-size: 200px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
+
+  #welcome-letter h4{
+    text-align: justify;
   }
 
   .apply{
