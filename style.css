@@ -251,6 +251,12 @@ body {
       line-height: inherit;
   }
 
+   .lg-scr{
+     display: inline-block;
+   }
+   .sm-scr{
+     display: none;
+   }
 
   /* slide animation on scroll */
   .slideanim {visibility:hidden;}
@@ -310,3 +316,19 @@ body {
         font-size: 150px;
     }
   }
+
+
+/*------------------*/
+@media screen and (max-width: 500px) { 
+   .lg-scr{
+      display: none;
+   }
+   .sm-scr{
+     display: inline-block;
+   }
+ }
+    
+    
+    
+    
+    
