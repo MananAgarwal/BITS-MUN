@@ -45,6 +45,7 @@ body {
     color:#fff;
     text-decoration: none;
     font-size: 34px;
+    height: 2.75em;
   }
 
   .wrap {
@@ -61,8 +62,8 @@ body {
   .landing{
       padding-top: 130px;
       padding-bottom: 70px;
-      background: url('BG2-min.jpg') no-repeat center center;
-      background-size: 101%;
+      background: url('BG.jpg') no-repeat center center;
+      background-size: cover;
   }
   .container-fluid {
       padding: 50px 50px;
@@ -71,6 +72,9 @@ body {
       background-color: #f6f6f6;
   }
 
+  #welcome-letter{
+      padding: 0px;    
+  }
   #welcome-letter h4{
     text-align: justify;
   }
